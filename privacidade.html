@@ -55,7 +55,9 @@
     <li><strong>Assinatura:</strong> se você assinar o Contadim Premium, recebemos da Apple ou do Google, por meio do
     serviço RevenueCat, apenas a situação da assinatura (plano, datas, se está ativa). <strong>Não recebemos os dados do
     seu cartão ou forma de pagamento</strong>, que ficam com a Apple ou o Google.</li>
-    <li><strong>Período grátis:</strong> para controlar os dias grátis, o app guarda no próprio aparelho a data do primeiro uso.</li>
+    <li><strong>Período grátis:</strong> para controlar os dias grátis, o app guarda no próprio aparelho a data do primeiro uso.
+    Para que o período grátis da conta seja usado uma única vez, guardamos também um <strong>código irreversível (hash)
+    do seu e-mail</strong> junto com a data de fim do período grátis. Esse código não permite descobrir o seu e-mail.</li>
     <li><strong>Dados técnicos:</strong> informações normais de qualquer conexão com a internet, como endereço IP,
     modelo e sistema do aparelho e versão do app.</li>
   </ul>
@@ -65,6 +67,7 @@
     <li>Criar e proteger sua conta e permitir o login — execução de contrato (art. 7º, V, da LGPD);</li>
     <li>Guardar e sincronizar seus dados entre seus aparelhos — execução de contrato;</li>
     <li>Liberar o período grátis e os recursos do Contadim Premium — execução de contrato;</li>
+    <li>Evitar o uso repetido do período grátis (hash do e-mail) — legítimo interesse (art. 7º, IX, da LGPD);</li>
     <li>Enviar e-mails necessários, como código de confirmação de cadastro e de troca de senha — execução de contrato;</li>
     <li>Responder pedidos de suporte — execução de contrato e legítimo interesse;</li>
     <li>Cumprir obrigações legais, quando houver — art. 7º, II, da LGPD.</li>
@@ -97,7 +100,9 @@
   </ul>
 
   <h2>7. Por quanto tempo guardamos</h2>
-  <p>Enquanto sua conta existir. Ao excluir a conta, seus dados são apagados do servidor imediatamente; cópias de
+  <p>Enquanto sua conta existir. Ao excluir a conta, seus dados são apagados do servidor imediatamente, exceto o
+  código irreversível (hash) do e-mail e a data de fim do período grátis, mantidos para impedir que o período grátis
+  seja reutilizado; cópias de
   segurança técnicas do provedor são eliminadas automaticamente em até 30 dias. Dados ligados a pagamentos podem ser
   mantidos pela Apple, pelo Google e pelo RevenueCat pelo prazo exigido por lei.</p>
 
